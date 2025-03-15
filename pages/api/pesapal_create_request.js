@@ -43,7 +43,7 @@ export default async function handler(req, res) {
   const { data: ipn_urls } = await axios.request(get_registered_ipns);
 
   const notification_id = ipn_urls?.find(
-    ({ url }) => url == "https://tech-bank.vercel.app/api/pesapal_webhook"
+    ({ url }) => url == "https://tech-bank-ke.vercel.app/api/pesapal_webhook"
   )?.ipn_id;
 
   // Send Order Request
@@ -53,7 +53,7 @@ export default async function handler(req, res) {
       currency: "KES",
       amount: req.body.amount,
       description: "Payment description goes here",
-      callback_url: "https://tech-bank.vercel.app/account  ",
+      callback_url: "https://tech-bank-ke.vercel.app/account  ",
       redirect_mode: "",
       notification_id,
       branch: "",

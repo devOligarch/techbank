@@ -45,9 +45,9 @@ export default function Home() {
       <NextSeo
         title="Tech Bank - Official Website | Africa’s Premium Refurbished Tech Marketplace"
         description="Visit Tech Bank' sofficial website to explore affordable smartphones, trade-in services, and flexible payment plans in Africa."
-        canonical="https://tech-bank.vercel.app"
+        canonical="https://tech-bank-ke.vercel.app"
         openGraph={{
-          url: "https://tech-bank.vercel.app",
+          url: "https://tech-bank-ke.vercel.app",
           title: "Tech Bank - Buy, Sell, Trade-In & Lipa Pole Pole Phones",
           description:
             "Visit Tech Bank's official website for the best phone deals, trade-ins, and flexible payment plans.",
@@ -74,7 +74,7 @@ export default function Home() {
       />
 
       <CorporateContactJsonLd
-        url="https://tech-bank.vercel.app"
+        url="https://tech-bank-ke.vercel.app"
         logo="/logo.png"
         contactPoint={[
           {
@@ -108,7 +108,7 @@ export default function Home() {
 
       <LogoJsonLd
         logo="/logo.webp" //URL
-        url="https://tech-bank.vercel.app"
+        url="https://tech-bank-ke.vercel.app"
       />
 
       <Header />

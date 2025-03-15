@@ -317,7 +317,7 @@ function Carousels() {
               onChange={(e) =>
                 setCarousel({ ...carousel, link: e.target.value })
               }
-              placeholder="ex. https://tech-bank.vercel.app/product/ed24-45df"
+              placeholder="ex. https://tech-bank-ke.vercel.app/product/ed24-45df"
             />
 
             <br />

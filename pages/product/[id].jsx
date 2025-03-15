@@ -171,7 +171,7 @@ function Product() {
   return (
     <div>
       <NextSeo
-        canonical={`https://tech-bank.vercel.app/products/${id}}`}
+        canonical={`https://tech-bank-ke.vercel.app/products/${id}}`}
         title="TechBank"
         description={
           variant?.description?.length > 150
@@ -195,17 +195,17 @@ function Product() {
           {
             position: 1,
             name: variant?.deviceType,
-            item: "https://tech-bank.vercel.app/all",
+            item: "https://tech-bank-ke.vercel.app/all",
           },
           {
             position: 2,
             name: variant?.brand,
-            item: `https://tech-bank.vercel.app/all?model=${variant?.brand}`,
+            item: `https://tech-bank-ke.vercel.app/all?model=${variant?.brand}`,
           },
           {
             position: 3,
             name: variant?.model,
-            item: `https://tech-bank.vercel.app/all?model=${variant?.brand}`,
+            item: `https://tech-bank-ke.vercel.app/all?model=${variant?.brand}`,
           },
         ]}
       />
@@ -225,7 +225,7 @@ function Product() {
             priceCurrency: "KES",
             itemCondition: "https://schema.org/NewCondition",
             availability: "https://schema.org/InStock",
-            url: `https://tech-bank.vercel.app/products/${id}}`,
+            url: `https://tech-bank-ke.vercel.app/products/${id}}`,
             seller: {
               name: "TechBank",
             },
