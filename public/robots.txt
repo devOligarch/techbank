@@ -1,0 +1,5 @@
+# *
+User-agent: *
+Allow: /
+Sitemap: https://tech-bank.vercel.app/sitemap.xml
+
