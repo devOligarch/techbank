@@ -50,7 +50,7 @@ function Header() {
         <img
           src="/logo.webp"
           onClick={() => router.push("/")}
-          className="h-[36px] lg:h-[48px]"
+          className="h-[28px] lg:h-[48px]"
         />
 
         {width > 750 && (
