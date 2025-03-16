@@ -145,7 +145,7 @@ function Product() {
       <div
         className={`${
           !topBanner && "hidden"
-        } p-4 bg-[#B3C8EF] flex justify-between items-center`}
+        } p-4 bg-[#FFE0B2] flex justify-between items-center`}
       >
         <p className="text-[0.7rem] font-semibold">
           Trade in tech you don&apos;t want for cash you do.{" "}
@@ -429,7 +429,7 @@ const Options = ({ device }) => {
         </p>
         <div className="flex gap-4 flex-wrap">
           <div
-            className={`bg-[#b3c8ef] flex space-x-3 text-[0.8rem]  rounded-md border border-black hover:cursor-pointer
+            className={`bg-[#FFE0B2] flex space-x-3 text-[0.8rem]  rounded-md border border-black hover:cursor-pointer
                p-2 items-center `}
           >
             <span>{device?.storage?.label}</span>
@@ -441,7 +441,7 @@ const Options = ({ device }) => {
         <p className="font-medium text-[1.05rem] mb-2">Color</p>
         <div className="flex gap-4 flex-wrap">
           <div
-            className={`bg-[#b3c8ef] flex space-x-3 text-[0.8rem]  rounded-md border border-black hover:cursor-pointer p-2 items-center `}
+            className={`bg-[#FFE0B2] flex space-x-3 text-[0.8rem]  rounded-md border border-black hover:cursor-pointer p-2 items-center `}
           >
             <ColorSwatch color={device?.color?.colorCode} size={16} />
             <span>{device?.color?.label}</span>

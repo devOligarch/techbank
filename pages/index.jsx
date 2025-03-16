@@ -226,7 +226,7 @@ const LipaPolePole = () => {
         </p>
         <br />
         <Button
-          onClick={() => router.push("https://shorturl.at/xZw6G")}
+          onClick={() => router.push("/all")}
           fullWidth
           className="outline outline-[0.7px]"
         >
@@ -332,7 +332,7 @@ const AvailableBrands = () => {
         {["Apple", "Samsung", "OnePlus", "Google Pixel"].map((brand) => (
           <div
             key={brand}
-            className="col-span-1 rounded-md bg-[#FFE0B2] aspect-square flex items-center justify-center "
+            className="col-span-1 rounded-md bg-white aspect-square flex items-center justify-center "
           >
             <div>
               <Link href={`/all?model=${brand}`}>
